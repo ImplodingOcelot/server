@@ -240,6 +240,3 @@ impl Request {
         };
     }
 }
-fn main()   {
-    
-}

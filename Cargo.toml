@@ -5,5 +5,9 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[lib]
+name = "server"
+crate-type = ["rlib"]
+
 [dependencies]
 json = "0.12.4"
